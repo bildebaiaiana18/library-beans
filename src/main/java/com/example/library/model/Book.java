@@ -15,4 +15,9 @@ public class Book {
     public String getBookInfo() {
         return "Book: Harry Potter, Author: " + author.getName();
     }
+
+    public void openBook() {
+        System.out.println("Opening the book...");
+    }
+
 }
