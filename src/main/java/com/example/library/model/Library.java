@@ -15,4 +15,9 @@ public class Library {
     public void showBooks() {
         System.out.println(book.getBookInfo());
     }
+
+    public void closeLibrary() {
+        System.out.println("Library is now closed.");
+    }
+
 }
